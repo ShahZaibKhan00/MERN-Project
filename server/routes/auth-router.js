@@ -6,6 +6,7 @@ const controller = require('../controller/auth-controller')
 
 router.route('/home').get(controller.index);
 router.route('/register').post(controller.register);
+router.route('/login').post(controller.login);
 
 
 // Route can de created of two SVGUnitTypes. phley wala simple ha dusry waly me hum 1 he sath sary method concatenate krwa kr krsakty han
